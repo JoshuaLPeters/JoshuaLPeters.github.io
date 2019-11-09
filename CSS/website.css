@@ -1,6 +1,34 @@
 body {
 
 }
-.navbar-brand{
-    color: white;
+.navbar{
+
+}
+.container{
+
+}
+.carousel-image{
+    margin-top: 50px;
+    width: 100%;
+    max-width: 610px;
+    height: auto;
+}
+.carousel-div-af-headshot{
+    max-height: 523px;
+    overflow: hidden;
+}
+#af-headshot{
+    max-height: initial;
+}
+.carousel-div-cat-dad-headshot{
+    max-height: 523px;
+    overflow: hidden;
+}
+#cat-dad-headshot{
+    max-height: initial;
+}
+.carousel-caption{
+    font-size: 17px;
+    text-shadow: 2px 3px 5px black;
+    -webkit-text-stroke: .15px black;
 }

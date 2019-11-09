@@ -3,3 +3,4 @@ $(document).ready(function() {
 $('.navbar-brand').css('color','white');
 
 })
+

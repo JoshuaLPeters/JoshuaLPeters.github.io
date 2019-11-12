@@ -1,6 +1,27 @@
 body {
 
 }
+h1 {
+    color: white;
+}
+.name-header{
+    text-align: center;
+}
+h3 {
+    color: white;
+}
+.about-me-header{
+    text-align: center;
+}
+.software-developer-header{
+    text-align: center;
+}
+p {
+    color: white;
+}
+.intro-paragraph{
+    margin: 20px;
+}
 .navbar{
 
 }
@@ -31,4 +52,10 @@ body {
     font-size: 17px;
     text-shadow: 2px 3px 5px black;
     -webkit-text-stroke: .15px black;
+}
+.family-png{
+    width: 100%;
+}
+.codeup-banner{
+    width: 100%;
 }

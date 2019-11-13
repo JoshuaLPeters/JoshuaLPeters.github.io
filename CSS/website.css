@@ -2,13 +2,22 @@ body {
 
 }
 h1 {
-    color: white;
-}
-.name-header{
     text-align: center;
+}
+.full-name{
+
+}
+.first-word-header{
+    color: #BAC492;
+}
+.last-word-header{
+    color: #799F4B;
 }
 h3 {
     color: white;
+}
+.hr-line{
+    border: 2px solid #555A5F;
 }
 .about-me-header{
     text-align: center;
@@ -20,6 +29,9 @@ p {
     color: white;
 }
 .intro-paragraph{
+    margin: 20px;
+}
+.software-developer-paragraph{
     margin: 20px;
 }
 .navbar{

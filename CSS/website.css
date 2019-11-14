@@ -100,3 +100,13 @@ li {
     text-align: center;
     display: block;
 }
+/* PROJECT TEXT CODE */
+.project-paragraph{
+    margin: 20px;
+}
+.project-title{
+    font-size: 30px;
+}
+.div-list-group{
+    margin: 20px;
+}

@@ -28,6 +28,14 @@ h3 {
 p {
     color: white;
 }
+ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+li {
+    color: white;
+}
 .intro-paragraph{
     margin: 20px;
 }
@@ -68,6 +76,27 @@ p {
 .family-png{
     width: 100%;
 }
+
+/* banner images */
 .codeup-banner{
     width: 100%;
+}
+.div-software-one-banner{
+    max-height: 350px;
+    overflow: hidden;
+}
+.software-one-banner{
+    width: 100%;
+    height: auto;
+    max-height: initial;
+}
+.div-list-img{
+    text-align: center;
+    display: block;
+}
+.list-img{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: block;
 }

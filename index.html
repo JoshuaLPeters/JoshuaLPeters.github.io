@@ -15,7 +15,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand d-lg-none" href="index.html" style="font-size: 22px"><span style="color: #BAC492" >JOSHUA L </span><span style="color: #799F4B">PETERS</span></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -24,18 +24,18 @@
                         <a class="nav-link" href="services.html">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Software Developer</a>
+                        <a class="nav-link" href="#" role="button" aria-controls="navbarResponsive">Software Developer</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Projects
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                            <a class="dropdown-item" href="">Weather Map</a>
-                            <a class="dropdown-item" href="">Movie Project</a>
-                            <a class="dropdown-item" href="">Project 3</a>
-                            <a class="dropdown-item" href="">Project 4</a>
-                            <a class="dropdown-item" href="">Capstone</a>
+                            <a class="nav-link" href="#coffee-project">Coffee Project</a>
+                            <a class="nav-link" href="#">Weather Map</a>
+                            <a class="nav-link" href="#">Movie Project</a>
+                            <a class="nav-link" href="#">RPG Project</a>
+                            <a class="nav-link" href="#">Final Capstone</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -63,6 +63,7 @@
             </div>
         </div>
     </nav>
+
     <!-- END OF BOOTSTRAP MOBILE NAVBAR -->
     <!-- BEGINNING OF BOOTSTRAP SLIDESHOW -->
     <div class="bd-example">
@@ -140,9 +141,10 @@
     <h1><span class="first-word-header">My </span><span class="last-word-header">Projects</span></h1>
 <!--    <hr class="hr-line">-->
     <img class="custom-hr-line" src="img/custum-hr-line.png">
-
+    <a name="coffee-project"></a>
     <div class="div-list-img">
         <img class="list-img coffee-list-img" src="img/coffee-shop-img.png">
+
     </div>
     <div>
         <p class="project-paragraph">The <span class="first-word-header project-title">Coffee </span><span class="last-word-header project-title">Shop</span> project
@@ -195,17 +197,53 @@
         <ul class="list-group">
             <li class="list-group-item list-group-item-action list-group-item-success">Developed an interactive weather map for any address</li>
             <li class="list-group-item list-group-item-action list-group-item-success">Learned how to integrate multiple APIs</li>
-            <li class="list-group-item list-group-item-action list-group-item-success"></li>
-            <li class="list-group-item list-group-item-action list-group-item-success"></li>
-            <li class="list-group-item list-group-item-action list-group-item-success"></li>
+            <li class="list-group-item list-group-item-action list-group-item-success">Another awesome line about the project</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">Another awesome line about the project</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">Another awesome line about the project</li>
         </ul>
+    </div>
+    <div>
+        <p class="project-paragraph">Overall this project went fairly well towards the end when things started to come together. It wouldn't have been possible
+        without some assistance from fellow class mates and instructors with getting the APIs to cooperate with each other; but it was a great learning
+        experience nonetheless.</p>
+    </div>
+    <div class="div-list-img">
+        <img class="list-img movie-list-img" src="img/movie-project.png">
     </div>
 
 
-    <h3 class="project-item"><span class="first-word-header">Movie </span><span class="last-word-header">Project</span></h3>
-    <h3 class="project-item"><span class="first-word-header">Project </span><span class="last-word-header">Five</span></h3>
-    <h3 class="project-item"><span class="first-word-header">Final </span><span class="last-word-header">Capstone</span></h3>
-
+    <p class="project-paragraph">The <span class="first-word-header project-title">Movie </span><span class="last-word-header project-title">Project</span> was the third major
+    project that involved the paired partner programming technique. This project emphasized on learning how to utilize npm to build out
+    a working movie site that could search, add, edit, and delete data pulled from existing JSON files or an API.</p>
+    <div class="div-list-group">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-danger">Learn how to uilitze npm to build a program</li>
+            <li class="list-group-item list-group-item-action list-group-item-danger">Use promises with javascript</li>
+            <li class="list-group-item list-group-item-action list-group-item-danger">Plan a detailed step by step process</li>
+            <li class="list-group-item list-group-item-action list-group-item-danger">Make ajax requests to pull movies from an API</li>
+            <li class="list-group-item list-group-item-action list-group-item-danger">Allow users to add, edit, delete, and search movies</li>
+        </ul>
+    </div>
+    <h3 class="between-lists-header">After being defeated by many .then's and finding lost curly brackets that we accidentally deleted...</h3>
+    <div class="div-list-group">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-success">Initialized JSON database to load into the site with ajax</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">Created search function for movie titles with API</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">On page load generated HTML from JSON responses</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">Iterated through a complex API to retrieve specific info</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">Merged to Github while rotating with paired programming</li>
+        </ul>
+    </div>
+    <div>
+        <p class="project-paragraph">Working with <span class="first-word-header project-title">Alexander </span><span class="last-word-header project-title">Lee</span>
+            made navigating the MovieDB API tolerable to say the least; his inept ability to work through these complex objects made iterating
+        through them much easier to find the desired information to complete this project in a timely manner. Our greatest challenge was solving a syntax
+        error towards the end when we had accidentally deleted a pair of brackets that wasn't picked up by IntelliJ. It was a relieving
+        moment with huge smiles once our code was working to the desired specifications.</p>
+    </div>
+    <p class="project-paragraph"><span class="first-word-header">RPG </span><span class="last-word-header">Project</span></p>
+    <p class="project-paragraph"><span class="first-word-header">Final </span><span class="last-word-header">Capstone</span></p>
+    <button type="submit" id="test-button">Test</button>
 
 
 
@@ -214,7 +252,6 @@
 
 
     <script src="jquery-2.2.4.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

@@ -3,14 +3,9 @@ $(document).ready(function() {
 
 // $('.navbar-brand').css('color','white');
 
-    // function ScrollTo () {
-    //     $('a').click(function(){
-    //         $('html, body').animate({
-    //             scrollTop: $( $.attr(this, 'href') ).offset().top
-    //         }, 500);
-    //         return false;
-    //     });
-    // }
+    $('.dropdown-item').on('click',function (){
+        $('.navbar-collapse').collapse('hide');
+    });
 
 
 

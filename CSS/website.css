@@ -45,27 +45,21 @@ li {
 .software-developer-paragraph{
     margin: 20px;
 }
-.navbar{
-
-}
-.container{
-
-}
 .carousel-image{
     margin-top: 50px;
     width: 100%;
-    max-width: 610px;
+    /*max-width: 736px;*/
     height: auto;
 }
 .carousel-div-af-headshot{
-    max-height: 523px;
+    max-height: 977px;
     overflow: hidden;
 }
 #af-headshot{
     max-height: initial;
 }
 .carousel-div-cat-dad-headshot{
-    max-height: 523px;
+    max-height: 977px;
     overflow: hidden;
 }
 #cat-dad-headshot{
@@ -102,10 +96,27 @@ li {
     width: 100%;
     text-align: center;
     display: block;
+    margin-top: 20px;
 }
 .coffee-list-img{
     margin-top: 20px;
 }
+.rpg-banner-div{
+    max-height: 370px;
+    overflow: hidden;
+}
+.rpg-banner{
+    max-height: initial;
+}
+.capstone-banner-div{
+    max-height: 530px;
+    overflow: hidden;
+}
+.capstone-banner{
+    max-height: initial;
+
+}
+
 /* PROJECT TEXT CODE */
 .project-paragraph{
     margin: 20px;

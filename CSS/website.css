@@ -25,7 +25,14 @@ h1 {
 #navbar-icon{
     font-size: 45px;
 }
-
+.first-word-dropdown-item{
+    font-size: 45px;
+    color: #BAC492;
+}
+.last-word-dropdown-item{
+    font-size: 45px;
+    color: #799F4B;
+}
 h3 {
     color: white;
 }

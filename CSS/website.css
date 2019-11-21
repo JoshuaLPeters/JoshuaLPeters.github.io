@@ -4,8 +4,20 @@ body {
 h1 {
     text-align: center;
 }
-.full-name{
-
+h3 {
+    color: white;
+}
+p {
+    color: white;
+    font-size: 25px;
+}
+ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+li {
+    color: white;
 }
 .first-word-header{
     color: #BAC492;
@@ -33,9 +45,6 @@ h1 {
     font-size: 45px;
     color: #799F4B;
 }
-h3 {
-    color: white;
-}
 .hr-line{
     border: 2px solid #555A5F;
 }
@@ -48,18 +57,9 @@ h3 {
 .software-developer-header{
     text-align: center;
 }
-p {
-    color: white;
-    font-size: 25px;
-}
-ul {
-    color: white;
-    text-align: center;
-    list-style: none;
-}
-li {
-    color: white;
-}
+
+
+
 .intro-paragraph{
     margin: 20px;
 }

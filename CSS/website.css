@@ -9,11 +9,11 @@ h1 {
 }
 .first-word-header{
     color: #BAC492;
-    font-size: 50px;
+    font-size: 70px;
 }
 .last-word-header{
     color: #799F4B;
-    font-size: 50px;
+    font-size: 70px;
 }
 h3 {
     color: white;
@@ -32,6 +32,7 @@ h3 {
 }
 p {
     color: white;
+    font-size: 25px;
 }
 ul {
     color: white;

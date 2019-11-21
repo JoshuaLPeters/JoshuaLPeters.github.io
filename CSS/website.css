@@ -9,9 +9,11 @@ h1 {
 }
 .first-word-header{
     color: #BAC492;
+    font-size: 50px;
 }
 .last-word-header{
     color: #799F4B;
+    font-size: 50px;
 }
 h3 {
     color: white;
@@ -45,13 +47,6 @@ li {
 .software-developer-paragraph{
     margin: 20px;
 }
-/*.bd-example{*/
-/*    height: 350px;*/
-/*    overflow: hidden;*/
-/*}*/
-/*#carouselExampleCaptions{*/
-/*    height: auto;*/
-/*}*/
 .carousel-image{
     margin-top: 50px;
     width: 100%;

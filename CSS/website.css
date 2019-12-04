@@ -19,7 +19,6 @@ ul {
 li {
     color: white;
 }
-
 .first-word-header{
     color: #BAC492;
     font-size: 2.5em;
@@ -97,7 +96,6 @@ li {
 .software-developer-paragraph{
     margin: 1.25em;
 }
-
 /* CAROUSEL STYLING AND SIZING */
 .carousel-image{
     margin-top: 3.125em;
@@ -133,7 +131,6 @@ li {
 .carousel-paragraph{
     font-size: 3.4375em;
 }
-
 /* banner images */
 .codeup-banner{
     width: 100%;

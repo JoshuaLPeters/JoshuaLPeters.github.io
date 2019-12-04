@@ -21,15 +21,15 @@ li {
 }
 .first-word-header{
     color: #BAC492;
-    font-size: 4.375em;
+    font-size: 2.5em;
 }
 .last-word-header{
     color: #799F4B;
-    font-size: 4.375em;
+    font-size: 2.5em;
 }
 /* NAV BAR STYLING AND SIZING */
 .dropdown-item{
-    font-size: 3.4375em;
+    font-size: 1.5em;
 }
 .nav-link{
     font-size: 3.4375em;

@@ -74,6 +74,15 @@ li {
 .software-developer-header{
     text-align: center;
 }
+.nav-social-media-icon{
+    width: 6em;
+    height: 6em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
 
 
 

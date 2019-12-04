@@ -37,11 +37,11 @@ li {
 }
 .smaller-super-bowl{
     color: #BAC492;
-    font-size: 2.4em;
+    font-size: 2.35em;
 }
 .smaller-commercial{
     color: #799F4B;
-    font-size: 2.4em;
+    font-size: 2.35em;
 }
 /* NAV BAR STYLING AND SIZING */
 .dropdown-item{
@@ -166,8 +166,17 @@ li {
 .project-paragraph{
     margin: 1.25em;
 }
-.project-title{
+.project-title-first-word{
     font-size: 1.875em;
+    color: #BAC492;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.project-title-second-word{
+    font-size: 1.875em;
+    color: #799F4B;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .div-list-group{
     margin: 1.25em;

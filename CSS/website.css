@@ -21,32 +21,32 @@ li {
 }
 .first-word-header{
     color: #BAC492;
-    font-size: 70px;
+    font-size: 4.375em;
 }
 .last-word-header{
     color: #799F4B;
-    font-size: 70px;
+    font-size: 4.375em;
 }
 /* NAV BAR STYLING AND SIZING */
 .dropdown-item{
-    font-size: 55px;
+    font-size: 3.4375em;
 }
 .nav-link{
-    font-size: 55px;
+    font-size: 3.4375em;
 }
 #navbar-icon{
-    font-size: 45px;
+    font-size: 2.8125em;
 }
 .first-word-dropdown-item{
-    font-size: 45px;
+    font-size: 2.8125em;
     color: #BAC492;
 }
 .last-word-dropdown-item{
-    font-size: 45px;
+    font-size: 2.8125em;
     color: #799F4B;
 }
 .hr-line{
-    border: 2px solid #555A5F;
+    border: .125em solid #555A5F;
 }
 .custom-hr-line{
     width: 100%;
@@ -61,35 +61,35 @@ li {
 
 
 .intro-paragraph{
-    margin: 20px;
+    margin: 1.25em;
 }
 .software-developer-paragraph{
-    margin: 20px;
+    margin: 1.25em;
 }
 
 /* CAROUSEL STYLING AND SIZING */
 .carousel-image{
-    margin-top: 50px;
+    margin-top: 3.125em;
     width: 100%;
     /*max-width: 736px;*/
     height: auto;
 }
 .carousel-div-af-headshot{
-    max-height: 977px;
+    max-height: 61.0625em;
     overflow: hidden;
 }
 #af-headshot{
     max-height: initial;
 }
 .carousel-div-cat-dad-headshot{
-    max-height: 977px;
+    max-height: 61.0625em;
     overflow: hidden;
 }
 #cat-dad-headshot{
     max-height: initial;
 }
 .carousel-caption{
-    font-size: 17px;
+    font-size: 1.0525em;
     text-shadow: 2px 3px 5px black;
     -webkit-text-stroke: .15px black;
 }
@@ -97,10 +97,10 @@ li {
     width: 100%;
 }
 .carousel-header{
-    font-size: 70px; /* testing */
+    font-size: 4.375em; /* testing */
 }
 .carousel-paragraph{
-    font-size: 55px;
+    font-size: 3.4375em;
 }
 
 /* banner images */
@@ -108,7 +108,7 @@ li {
     width: 100%;
 }
 .div-software-one-banner{
-    max-height: 350px;
+    max-height: 21.875em;
     overflow: hidden;
 }
 .software-one-banner{
@@ -125,20 +125,20 @@ li {
     width: 100%;
     text-align: center;
     display: block;
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 .coffee-list-img{
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 .rpg-banner-div{
-    max-height: 370px;
+    max-height: 23.125em;
     overflow: hidden;
 }
 .rpg-banner{
     max-height: initial;
 }
 .capstone-banner-div{
-    max-height: 530px;
+    max-height: 33.125em;
     overflow: hidden;
 }
 .capstone-banner{
@@ -148,21 +148,21 @@ li {
 
 /* PROJECT TEXT CODE */
 .project-paragraph{
-    margin: 20px;
+    margin: 1.25em;
 }
 .project-title{
-    font-size: 30px;
+    font-size: 1.875em;
 }
 .div-list-group{
-    margin: 20px;
+    margin: 1.25em;
 }
 .list-group-item{
-    font-size: 30px;
+    font-size: 1.875em;
 }
 .between-lists-header{
     text-align: center;
     font-style: italic;
-    margin: 20px;
+    margin: 1.25em;
 }
 /* COMPANY LOGOS MOBILE */
 .row{

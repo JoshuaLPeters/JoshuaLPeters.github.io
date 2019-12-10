@@ -1,20 +1,130 @@
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 991px) {
+/* medium and below */
+@media (max-width: 991.999px) {
     .nav-name-title{
         font-size: 3.4375em;
     }
+    p {
+        color: white;
+        font-size: 2.5em;
+    }
+    h1 {
+        text-align: center;
+        font-size: 2.5em;
+    }
+    /* CAROUSEL STYLING AND SIZING */
+    .carousel-image{
+        margin-top: 3.125em;
+        width: 100%;
+        /*max-width: 736px;*/
+        height: auto;
+    }
+    .carousel-div-af-headshot{
+        max-height: 61.0625em;
+        overflow: hidden;
+    }
+    #af-headshot{
+        max-height: initial;
+    }
+    .carousel-div-cat-dad-headshot{
+        max-height: 61.0625em;
+        overflow: hidden;
+    }
+    #cat-dad-headshot{
+        max-height: initial;
+    }
+    .carousel-caption{
+        font-size: 1.0525em;
+        text-shadow: 2px 3px 5px black;
+        -webkit-text-stroke: .15px black;
+    }
+    .carousel-header{
+        font-size: 4.375em; /* testing */
+    }
+    .carousel-paragraph{
+        font-size: 3.4375em;
+    }
+    .first-word-header{
+        color: #BAC492;
+        font-size: 2.5em;
+    }
+    .last-word-header{
+        color: #799F4B;
+        font-size: 2.5em;
+    }
+    .custom-hr-line{
+        width: 100%;
+    }
+
 
 }
 @media (min-width: 992px) {
-    h1 {font-size:2.5rem;} /*1rem = 16px*/
+    h1 {
+        font-size:15em;
+        text-align: center;
+    }
+    p {
+        color: white;
+        font-size: 1.45em;
+    }
     /* NAVBAR LG DESTOP */
     #navbarResponsive {
         /*display: flex;*/
         font-size: .25em;
         /*justify-content: space-between;*/
     }
-    .navbar-brand{font-size: .25em;}
+    .navbar-brand{
+        font-size: .25em;
+    }
+    /* title header large */
+    .large-title-header{
+        display: block;
+    }
+    .large-title-first{
+        margin-top: 1.15em;
+        color: #BAC492;
+        text-align: center;
+        font-size: 2em;
+    }
+    .large-title-last{
+        margin-top: 1.15em;
+        color: #799F4B;
+        text-align: center;
+        font-size: 2em;
+    }
+    /* CAROUSEL STYLING AND SIZING */
+    .carousel-image{
+        width: 100%;
+        /*max-width: 736px;*/
+        height: auto;
+    }
+    .carousel-caption{
+        font-size: 1.0525em;
+        text-shadow: 2px 3px 5px black;
+        -webkit-text-stroke: .15px black;
+    }
+    .carousel-header{
+        font-size: 2.375em;
+    }
+    .carousel-paragraph{
+        font-size: 2.4375em;
+    }
+    /* colored headers large */
+    .first-word-header{
+        color: #BAC492;
+        font-size: 1.3em;
+    }
+    .last-word-header{
+        color: #799F4B;
+        font-size: 1.3em;
+    }
+    .custom-hr-line{
+        width: 100%;
+    }
 }
+
+
+
+
 
 /* Extra large devices (large desktops, 1200px and up) */
 /*@media (min-width: 1200px) {*/
@@ -23,16 +133,11 @@
 body {
 
 }
-h1 {
-    text-align: center;
-}
+
 h3 {
     color: white;
 }
-p {
-    color: white;
-    font-size: 2.5em;
-}
+
 ul {
     color: white;
     text-align: center;
@@ -41,14 +146,7 @@ ul {
 li {
     color: white;
 }
-.first-word-header{
-    color: #BAC492;
-    font-size: 2.5em;
-}
-.last-word-header{
-    color: #799F4B;
-    font-size: 2.5em;
-}
+
 .smaller-software{
     color: #BAC492;
     font-size: 2.4em;
@@ -87,9 +185,7 @@ li {
 .hr-line{
     border: .125em solid #555A5F;
 }
-.custom-hr-line{
-    width: 100%;
-}
+
 .about-me-header{
     text-align: center;
 }
@@ -119,41 +215,7 @@ li {
 .software-developer-paragraph{
     margin: 1.25em;
 }
-/* CAROUSEL STYLING AND SIZING */
-.carousel-image{
-    margin-top: 3.125em;
-    width: 100%;
-    /*max-width: 736px;*/
-    height: auto;
-}
-.carousel-div-af-headshot{
-    max-height: 61.0625em;
-    overflow: hidden;
-}
-#af-headshot{
-    max-height: initial;
-}
-.carousel-div-cat-dad-headshot{
-    max-height: 61.0625em;
-    overflow: hidden;
-}
-#cat-dad-headshot{
-    max-height: initial;
-}
-.carousel-caption{
-    font-size: 1.0525em;
-    text-shadow: 2px 3px 5px black;
-    -webkit-text-stroke: .15px black;
-}
-.family-png{
-    width: 100%;
-}
-.carousel-header{
-    font-size: 4.375em; /* testing */
-}
-.carousel-paragraph{
-    font-size: 3.4375em;
-}
+
 /* banner images */
 .codeup-banner{
     width: 100%;

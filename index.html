@@ -14,12 +14,12 @@
     <!-- BOOTSTRAP MOBILE NAVBAR -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html" style="font-size: 3.4375em"><span style="color: #BAC492" >JOSHUA L </span><span style="color: #799F4B">PETERS</span></a>
+            <a class="navbar-brand d-block d-lg-none" href="index.html"><span class="nav-name-title" style="color: #BAC492" >JOSHUA L </span><span class="nav-name-title" style="color: #799F4B">PETERS</span></a>
             <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span id="navbar-icon" class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto nav-fill w-100">
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Resume</a>
                     </li>
@@ -78,64 +78,69 @@
 
     <!-- END OF BOOTSTRAP MOBILE NAVBAR -->
     <!-- BEGINNING OF BOOTSTRAP SLIDESHOW -->
-    <div class="bd-example">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active carousel-div-twitch-headshot">
-                    <img id="twitch-headshot"  src="img/headshot-1.png" class="carousel-image d-block w-100">
-                    <div class="carousel-caption">
-                        <h5 class="carousel-header">Twitch TV Partner</h5>
-                        <p class="carousel-paragraph"></p>
+    <div class="large-about-me">
+        <div class="row">
+        <div class="bd-example col-lg-6">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active carousel-div-twitch-headshot">
+                        <img id="twitch-headshot"  src="img/headshot-1.png" class="carousel-image d-block w-100">
+                        <div class="carousel-caption">
+                            <h5 class="carousel-header">Twitch TV Partner</h5>
+                            <p class="carousel-paragraph"></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-div-af-headshot">
+                        <img id="af-headshot" src="img/headshot-2.png" class="carousel-image d-block w-100">
+                        <div class="carousel-caption">
+                            <h5 class="carousel-header">Air Force Veteran</h5>
+                            <p class="carousel-paragraph"></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-div-cat-dad-headshot">
+                        <img id="cat-dad-headshot" src="img/cat-dad.png" class="carousel-image d-block w-100">
+                        <div class="carousel-caption">
+                            <h5 class="carousel-header">Cat Dad</h5>
+                            <p class="carousel-paragraph"></p>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item carousel-div-af-headshot">
-                    <img id="af-headshot" src="img/headshot-2.png" class="carousel-image d-block w-100">
-                    <div class="carousel-caption">
-                        <h5 class="carousel-header">Air Force Veteran</h5>
-                        <p class="carousel-paragraph"></p>
-                    </div>
-                </div>
-                <div class="carousel-item carousel-div-cat-dad-headshot">
-                    <img id="cat-dad-headshot" src="img/cat-dad.png" class="carousel-image d-block w-100">
-                    <div class="carousel-caption">
-                        <h5 class="carousel-header">Cat Dad</h5>
-                        <p class="carousel-paragraph"></p>
-                    </div>
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        </div>
+        <!-- END OF BOOTSTRAP CAROUSEL -->
+
+        <!-- BEGINNING OF ABOUT ME -->
+        <div class="large-about-me col-lg-6">
+        <!--    <hr class="hr-line">-->
+            <img class="custom-hr-line d-block d-lg-none" src="img/custum-hr-line.png">
+            <h1><span class="first-word-header col-lg-3">About </span><span class="last-word-header col-lg-3">Me</span></h1>
+        <!--    <hr class="hr-line">-->
+            <img class="custom-hr-line" src="img/custum-hr-line.png">
+            <p class="intro-paragraph">Hello world! My non-traditional path in life has recently taken me through Codeup's web development bootcamp program!
+                I will be graduating at the end of February and will be starting a new career in the tech industry.</p>
+        <!-- HREF SOFTWARE DEVELOPER -->
+            <a name="software-developer" id="software-developer"></a>
+        <!--    <img class="family-png" src="img/codeup-banner.jpg">-->
+            <p class="intro-paragraph">For the past five years I've been running my own small business as a Partnered Twitch Broadcaster which started as a hobby when I was about to deploy with the Air Force. This past decade has
+            been a wild ride between the military and the entertainment industry but I am very excited to transition into the world of coding in 2020 as a software
+            developer with all the training Codeup has provided.</p>
+        </div>
+        <!-- END OF ABOUT ME -->
         </div>
     </div>
-    <!-- END OF BOOTSTRAP CAROUSEL -->
-
-    <!-- BEGINNING OF ABOUT ME -->
-<!--    <hr class="hr-line">-->
-    <img class="custom-hr-line" src="img/custum-hr-line.png">
-    <h1><span class="first-word-header">About </span><span class="last-word-header">Me</span></h1>
-<!--    <hr class="hr-line">-->
-    <img class="custom-hr-line" src="img/custum-hr-line.png">
-    <p class="intro-paragraph">Hello world! My non-traditional path in life has recently taken me through Codeup's web development bootcamp program!
-        I will be graduating at the end of February and will be starting a new career in the tech industry.</p>
-<!-- HREF SOFTWARE DEVELOPER -->
-    <a name="software-developer" id="software-developer"></a>
-<!--    <img class="family-png" src="img/codeup-banner.jpg">-->
-    <p class="intro-paragraph">For the past five years I've been running my own small business as a Partnered Twitch Broadcaster which started as a hobby when I was about to deploy with the Air Force. This past decade has
-    been a wild ride between the military and the entertainment industry but I am very excited to transition into the world of coding in 2020 as a software
-    developer with all the training Codeup has provided.</p>
-    <!-- END OF ABOUT ME -->
-
     <!-- BEGINNING OF SOFTWARE DEVELOPER -->
 <!--    <hr class="hr-line">-->
     <img class="custom-hr-line" src="img/custum-hr-line.png">

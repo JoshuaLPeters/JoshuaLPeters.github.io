@@ -54,6 +54,15 @@
     .custom-hr-line{
         width: 100%;
     }
+    /* SOFTWARE DEVELOPMENT MOBILE */
+    .smaller-software{
+        color: #BAC492;
+        font-size: 2.4em;
+    }
+    .smaller-development{
+        color: #799F4B;
+        font-size: 2.4em;
+    }
 
 
 }
@@ -123,6 +132,18 @@
     .large-about-me{
         max-height: 38em;
     }
+    /* SOFTWARE DEVELOPMENT SECTION */
+    .smaller-software{
+        color: #BAC492;
+        font-size: 1.15em;
+    }
+    .smaller-development{
+        color: #799F4B;
+        font-size: 1.15em;
+    }
+    .large-software-div-image{
+
+    }
 }
 
 
@@ -150,14 +171,7 @@ li {
     color: white;
 }
 
-.smaller-software{
-    color: #BAC492;
-    font-size: 2.4em;
-}
-.smaller-development{
-    color: #799F4B;
-    font-size: 2.4em;
-}
+
 .smaller-super-bowl{
     color: #BAC492;
     font-size: 2.35em;

@@ -1,3 +1,4 @@
+
 /* medium and below */
 @media (max-width: 991.999px) {
     body {
@@ -160,23 +161,25 @@
 
     }
     .desktop-software-image{
-        box-shadow: 1px 1px 0px #BAC492,
-                    2px 2px 0px #BAC492,
-                    3px 3px 0px #BAC492,
-                    4px 4px 0px #BAC492,
-                    5px 5px 0px #BAC492,
-                    6px 6px 0px #BAC492,
-                    7px 7px 0px #BAC492;
+        /*box-shadow: 1px 1px 0px #BAC492,*/
+        /*            2px 2px 0px #BAC492,*/
+        /*            3px 3px 0px #BAC492,*/
+        /*            4px 4px 0px #BAC492,*/
+        /*            5px 5px 0px #BAC492,*/
+        /*            6px 6px 0px #BAC492,*/
+        /*            7px 7px 0px #BAC492;*/
+        box-shadow: 12px 12px;
     }
     #carouselExampleCaptions-desktop{
         padding: 0;
-        box-shadow: 1px 1px 0px #BAC492,
-        2px 2px 0px #BAC492,
-        3px 3px 0px #BAC492,
-        4px 4px 0px #BAC492,
-        5px 5px 0px #BAC492,
-        6px 6px 0px #BAC492,
-        7px 7px 0px #BAC492;
+        /*box-shadow: 1px 1px 0px #BAC492,*/
+        /*2px 2px 0px #BAC492,*/
+        /*3px 3px 0px #BAC492,*/
+        /*4px 4px 0px #BAC492,*/
+        /*5px 5px 0px #BAC492,*/
+        /*6px 6px 0px #BAC492,*/
+        /*7px 7px 0px #BAC492;*/
+        box-shadow: 12px 12px;
     }
 }
 
@@ -188,9 +191,6 @@
 /*@media (min-width: 1200px) {*/
 /*    h1 {font-size:3rem;} !*1rem = 16px*!*/
 /*}*/
-body{
-    background-image: url(body-grey-modern.jpg);
-}
 
 h3 {
     color: white;

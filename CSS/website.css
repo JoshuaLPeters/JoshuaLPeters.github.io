@@ -289,10 +289,10 @@ li {
     width: 100%;
     text-align: center;
     display: block;
-    margin-top: 1.25em;
+    /*margin-top: 1.25em;*/
 }
 .coffee-list-img{
-    margin-top: 1.25em;
+    /*margin-top: 1.25em;*/
 }
 .rpg-banner-div{
     max-height: 23.125em;

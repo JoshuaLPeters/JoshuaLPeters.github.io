@@ -124,8 +124,12 @@
     .dropdown-item{
         font-size: 1em;
     }
-    .nav-social-media-icon{
-        align-items: center;
+    /*.nav-social-media-icon{*/
+    /*    max-height: 2em;*/
+    /*    max-width: 2em;*/
+    /*}*/
+    .center-nav-icon{
+
     }
     .nav-link{
         font-size: 3.4375em;

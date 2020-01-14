@@ -15,6 +15,25 @@
         text-align: center;
         font-size: 2.5em;
     }
+    /* NAV BAR STYLYING */
+    .dropdown-item{
+        font-size: 1.25em;
+    }
+    .nav-link{
+        font-size: 3.4375em;
+    }
+    #navbar-icon{
+        font-size: 2.8125em;
+    }
+    .first-word-dropdown-item{
+        font-size: 2.8125em;
+        color: #BAC492;
+    }
+    .last-word-dropdown-item{
+        font-size: 2.8125em;
+        color: #799F4B;
+    }
+
     /* CAROUSEL STYLING AND SIZING */
     .carousel-image{
         margin-top: 3.125em;
@@ -102,6 +121,27 @@
     .navbar-brand{
         font-size: .25em;
     }
+    .dropdown-item{
+        font-size: 1em;
+    }
+    .nav-social-media-icon{
+        align-items: center;
+    }
+    .nav-link{
+        font-size: 3.4375em;
+    }
+    #navbar-icon{
+        font-size: 1em;
+    }
+    .first-word-dropdown-item{
+        font-size: 1.5em;
+        color: #BAC492;
+    }
+    .last-word-dropdown-item{
+        font-size: 1.5m;
+        color: #799F4B;
+    }
+
     /* title header large */
     .large-title-header{
         display: block;
@@ -213,25 +253,6 @@ li {
 .smaller-commercial{
     color: #799F4B;
     font-size: 2.35em;
-}
-/* NAV BAR STYLING AND SIZING */
-
-.dropdown-item{
-    font-size: 1.25em;
-}
-.nav-link{
-    font-size: 3.4375em;
-}
-#navbar-icon{
-    font-size: 2.8125em;
-}
-.first-word-dropdown-item{
-    font-size: 2.8125em;
-    color: #BAC492;
-}
-.last-word-dropdown-item{
-    font-size: 2.8125em;
-    color: #799F4B;
 }
 .hr-line{
     border: .125em solid #555A5F;

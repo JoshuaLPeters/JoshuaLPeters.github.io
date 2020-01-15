@@ -142,7 +142,7 @@
         color: #BAC492;
     }
     .last-word-dropdown-item{
-        font-size: 1.5m;
+        font-size: 1.5em;
         color: #799F4B;
     }
 
@@ -212,6 +212,9 @@
         /*            5px 5px 0px #BAC492,*/
         /*            6px 6px 0px #BAC492,*/
         /*            7px 7px 0px #BAC492;*/
+        box-shadow: 12px 12px;
+    }
+    .desktop-twitch-image{
         box-shadow: 12px 12px;
     }
     #carouselExampleCaptions-desktop{

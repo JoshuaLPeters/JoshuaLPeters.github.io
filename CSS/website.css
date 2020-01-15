@@ -225,6 +225,15 @@
         /*7px 7px 0px #BAC492;*/
         box-shadow: 12px 12px;
     }
+    /* TWITCH SECTION */
+    .smaller-twitch{
+        color: #BAC492;
+        font-size: 1.15em;
+    }
+    .smaller-broadcaster{
+        color: #799F4B;
+        font-size: 1.15em;
+    }
 }
 
 

@@ -217,6 +217,9 @@
     .desktop-twitch-image{
         box-shadow: 12px 12px;
     }
+    .twitch-banner-div-img{
+        box-shadow: 12px 12px #6441A5;
+    }
     #carouselExampleCaptions-desktop{
         padding: 0;
         /*box-shadow: 1px 1px 0px #BAC492,*/
